@@ -1,0 +1,25 @@
+body {
+  background: #e7e5e4;
+}
+
+.flexCentered {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5rem;
+}
+
+#finalScore {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 12px 0px;
+  padding-top: 20px;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
